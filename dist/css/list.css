@@ -1,0 +1,555 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  min-width: 982px;
+  background: #f5f5f5;
+  font-size: 12px;
+  color: #333333; }
+  body input {
+    font-size: 12px;
+    color: #333; }
+  body .wrap {
+    height: 70px; }
+    body .wrap .wrap_f1 {
+      position: relative;
+      z-index: 1000;
+      height: 70px;
+      box-sizing: border-box;
+      background-color: #242424;
+      border-bottom: 1px solid #000; }
+      body .wrap .wrap_f1 .m_top {
+        width: 1100px;
+        height: 70px;
+        margin: 0 auto;
+        background-color: #242424; }
+        body .wrap .wrap_f1 .m_top .logo {
+          width: 176px;
+          height: 69px;
+          background: url(../imgs/topbar.png) no-repeat;
+          background-position: 0 0;
+          float: left; }
+          body .wrap .wrap_f1 .m_top .logo a {
+            float: left;
+            width: 157px;
+            height: 100%;
+            padding-right: 20px;
+            text-indent: -9999px; }
+        body .wrap .wrap_f1 .m_top .m_nav li {
+          position: relative; }
+          body .wrap .wrap_f1 .m_top .m_nav li span {
+            height: 70px;
+            float: left;
+            font-size: 14px; }
+            body .wrap .wrap_f1 .m_top .m_nav li span a {
+              position: relative;
+              padding: 0 19px;
+              text-align: center;
+              color: #cccccc;
+              display: inline-block; }
+              body .wrap .wrap_f1 .m_top .m_nav li span a em {
+                line-height: 70px; }
+              body .wrap .wrap_f1 .m_top .m_nav li span a .cor {
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 64px;
+                width: 12px;
+                height: 7px;
+                margin-left: -6px;
+                overflow: hidden;
+                background: url(../imgs/topbar.png) no-repeat;
+                background-position: -226px 0; }
+            body .wrap .wrap_f1 .m_top .m_nav li span a:hover {
+              background: #000;
+              color: #ffffff; }
+            body .wrap .wrap_f1 .m_top .m_nav li span .a1 {
+              background: #000;
+              color: #ffffff; }
+        body .wrap .wrap_f1 .m_top .dl {
+          float: right;
+          height: 45px;
+          margin: 19px 0 0 20px;
+          padding: 0 22px 0 0;
+          background: url(../imgs/topbar.png) no-repeat;
+          background-position: right -47px;
+          background-image: none; }
+          body .wrap .wrap_f1 .m_top .dl .dlbtn {
+            display: block;
+            width: 28px;
+            margin-top: 7px;
+            color: #787878;
+            font-size: 12px; }
+        body .wrap .wrap_f1 .m_top .czzzx {
+          float: right;
+          width: 90px;
+          height: 32px;
+          margin: 19px 0 0 12px;
+          box-sizing: border-box;
+          padding-left: 16px;
+          border: 1px solid #4f4f4f;
+          font-size: 12px;
+          line-height: 31px;
+          border-radius: 20px;
+          color: #cccccc; }
+        body .wrap .wrap_f1 .m_top .czzzx:hover {
+          color: #ffffff;
+          border: 1px solid #ffffff; }
+        body .wrap .wrap_f1 .m_top .ssk {
+          float: right;
+          width: 158px;
+          height: 32px;
+          margin-top: 19px;
+          border-radius: 32px;
+          font-size: 12px;
+          background: url(../imgs/topbar.png) no-repeat;
+          background-position: 0 -99px;
+          background-color: #ffffff; }
+          body .wrap .wrap_f1 .m_top .ssk span {
+            display: block;
+            position: relative;
+            margin: 8px 0 0 30px; }
+  body .red1 {
+    z-index: 90;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: #C20C0C; }
+  body .j_flag {
+    height: 100%;
+    margin: 0 auto;
+    width: 740px;
+    padding-bottom: 50px;
+    position: relative;
+    zoom: 1; }
+    body .j_flag .f_pr {
+      width: 740px;
+      position: relative;
+      top: 5px;
+      zoom: 1;
+      border: 1px solid #d9d9d9;
+      border-top: 0; }
+      body .j_flag .f_pr .f_auto .g_wrap {
+        padding: 40px;
+        height: 200px; }
+        body .j_flag .f_pr .f_auto .g_wrap .m_info .u_cover {
+          float: left;
+          position: relative;
+          margin: 0 -220px 0 0;
+          width: 200px;
+          height: 200px; }
+          body .j_flag .f_pr .f_auto .g_wrap .m_info .u_cover img {
+            display: block;
+            width: 100%;
+            height: 100%; }
+          body .j_flag .f_pr .f_auto .g_wrap .m_info .u_cover .msk {
+            width: 208px;
+            height: 208px;
+            background: url(../imgs/coverall.png) no-repeat;
+            background-position: 0 -1285px;
+            top: -4px;
+            left: -4px;
+            position: absolute; }
+        body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt {
+          float: right;
+          width: 100%; }
+          body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .cntc {
+            margin-left: 230px; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .cntc .hd {
+              position: relative;
+              margin: 0 0 12px;
+              line-height: 24px; }
+              body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .cntc .hd .type {
+                position: relative;
+                top: 3px;
+                float: left;
+                margin-right: 6px;
+                background: url(../imgs/icon.png) no-repeat;
+                width: 54px;
+                height: 24px;
+                background-position: 0 -243px;
+                overflow: hidden; }
+              body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .cntc .hd .f_thide {
+                line-height: 24px;
+                font-size: 20px;
+                font-weight: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; }
+          body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user {
+            margin: 0 0 20px;
+            line-height: 35px; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user .face {
+              margin-right: 10px;
+              float: left;
+              width: 35px;
+              height: 35px; }
+              body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user .face img {
+                float: left;
+                width: 35px;
+                height: 35px; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user .name {
+              max-width: 210px;
+              float: left;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+              body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user .name a {
+                color: #0c73c2; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .user .time {
+              margin-left: 15px;
+              color: #999999; }
+          body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .btns {
+            margin-bottom: 25px;
+            margin-right: -10px; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .btns .flag_play {
+              float: left;
+              width: 45px;
+              height: 31px;
+              color: #fff;
+              padding: 0 5px 0 0;
+              white-space: nowrap;
+              background-color: blue;
+              text-align: center;
+              line-height: 31px;
+              margin-right: 5px; }
+            body .j_flag .f_pr .f_auto .g_wrap .m_info .cnt .btns .flag_add {
+              margin-right: 5px; }
+      body .j_flag .f_pr .f_auto .u_title {
+        padding: 0 10px 0 32px;
+        height: 33px;
+        border-bottom: 2px solid #c20c0c; }
+        body .j_flag .f_pr .f_auto .u_title h3 {
+          font-size: 20px;
+          line-height: 28px;
+          float: left;
+          font-weight: normal;
+          font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; }
+        body .j_flag .f_pr .f_auto .u_title .sub {
+          margin: 9px 0 0 20px;
+          float: left; }
+        body .j_flag .f_pr .f_auto .u_title .more {
+          margin-top: 5px;
+          float: right; }
+          body .j_flag .f_pr .f_auto .u_title .more strong {
+            color: #c20c0c; }
+      body .j_flag .f_pr .f_auto .tb .m_table {
+        width: 100%;
+        border: 1px solid #d9d9d9;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: fixed; }
+        body .j_flag .f_pr .f_auto .tb .m_table thead {
+          display: table-header-group;
+          vertical-align: middle;
+          border-color: inherit; }
+          body .j_flag .f_pr .f_auto .tb .m_table thead tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr th {
+              background: url(../imgs/table.png) no-repeat;
+              vertical-align: top;
+              text-align: left;
+              font-weight: normal;
+              color: #666;
+              height: 38px;
+              background-color: #f7f7f7;
+              background-position: 0 0;
+              background-repeat: repeat-x; }
+              body .j_flag .f_pr .f_auto .tb .m_table thead tr th .wp {
+                height: 18px;
+                line-height: 18px;
+                padding: 8px 10px;
+                background: url(../imgs/table.png) no-repeat;
+                background-position: 0 -56px; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr .first .wp {
+              background: none; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr .w1 {
+              width: 74px; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr .w2 {
+              width: 111px; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr .w3 {
+              width: 14%; }
+            body .j_flag .f_pr .f_auto .tb .m_table thead tr .w4 {
+              width: 20%; }
+        body .j_flag .f_pr .f_auto .tb .m_table tbody {
+          display: table-row-group;
+          vertical-align: middle;
+          border-color: inherit; }
+          body .j_flag .f_pr .f_auto .tb .m_table tbody tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit; }
+            body .j_flag .f_pr .f_auto .tb .m_table tbody tr td {
+              padding: 6px 10px;
+              line-height: 18px;
+              text-align: left;
+              background: url(../imgs/table.png) no-repeat 0 9999px; }
+              body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .hd {
+                height: 18px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .hd .ply {
+                  float: right;
+                  width: 17px;
+                  height: 17px;
+                  cursor: pointer;
+                  background: url(../imgs/table.png) no-repeat;
+                  background-position: 0 -103px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .hd .num {
+                  width: 25px;
+                  margin-left: 5px;
+                  color: #999; }
+              body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .tt {
+                float: left;
+                width: 100%; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .tt .ttc {
+                  height: 18px;
+                  margin-right: 20px; }
+                  body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .tt .ttc .txt {
+                    position: relative;
+                    display: inline-block;
+                    padding-right: 25px;
+                    margin-right: -25px;
+                    max-width: 99%;
+                    height: 20px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap; }
+                    body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .tt .ttc .txt a {
+                      text-decoration: none;
+                      color: #333; }
+                    body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .tt .ttc .txt a:hover {
+                      text-decoration: underline;
+                      color: #333; }
+              body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt {
+                float: left; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .u_icn {
+                  float: left;
+                  margin-top: 2px;
+                  width: 13px;
+                  height: 13px;
+                  background: url(../imgs/icon.png) no-repeat;
+                  background-position: 0 -700px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .icn {
+                  background: url(../imgs/table.png) no-repeat;
+                  float: left;
+                  width: 18px;
+                  height: 16px;
+                  margin: 2px 0 0 4px;
+                  overflow: hidden;
+                  text-indent: -999px;
+                  cursor: pointer; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .icn_fav {
+                  background-position: 0 -174px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .icn_share {
+                  background-position: 0 -195px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .icn_dl {
+                  background-position: -81px -174px; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .opt .icn_del {
+                  background-position: -87px -174px; }
+              body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .text {
+                width: 100%;
+                position: relative;
+                zoom: 1;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .text a {
+                  color: #333; }
+                body .j_flag .f_pr .f_auto .tb .m_table tbody tr td .text a:hover {
+                  text-decoration: underline;
+                  color: #333; }
+  body .g_btnbar {
+    position: fixed;
+    zoom: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    z-index: 1002; }
+    body .g_btnbar .m_playbar {
+      position: absolute;
+      zoom: 1;
+      top: -53px;
+      left: 0;
+      width: 100%;
+      height: 53px;
+      margin: 0 auto; }
+      body .g_btnbar .m_playbar .bg {
+        width: 100%;
+        height: 53px;
+        zoom: 1;
+        margin-right: 67px;
+        background: url(../imgs/playbar.png);
+        background-position: 0 0;
+        background-repeat: repeat-x; }
+      body .g_btnbar .m_playbar .warp {
+        position: absolute;
+        left: 15%;
+        top: 6px;
+        z-index: 15;
+        width: 980px;
+        height: 47px;
+        margin: 0 auto; }
+        body .g_btnbar .m_playbar .warp .btns {
+          width: 137px;
+          padding: 6px 0 0 0;
+          float: left; }
+          body .g_btnbar .m_playbar .warp .btns a {
+            display: block;
+            float: left;
+            width: 28px;
+            height: 28px;
+            margin-right: 8px;
+            margin-top: 5px;
+            text-indent: -9999px;
+            background: url(../imgs/playbar.png) no-repeat; }
+          body .g_btnbar .m_playbar .warp .btns .prv {
+            background-position: 0 -130px; }
+          body .g_btnbar .m_playbar .warp .btns .prv:hover {
+            background-position: -30px -130px; }
+          body .g_btnbar .m_playbar .warp .btns .ply {
+            width: 36px;
+            height: 36px;
+            margin-top: 0;
+            background-position: 0 -204px; }
+          body .g_btnbar .m_playbar .warp .btns .ply:hover {
+            background-position: -40px -204px; }
+          body .g_btnbar .m_playbar .warp .btns .pause {
+            width: 36px;
+            height: 36px;
+            margin-top: 0;
+            background-position: 0 -165px; }
+          body .g_btnbar .m_playbar .warp .btns .pause:hover {
+            background-position: -40px -165px; }
+          body .g_btnbar .m_playbar .warp .btns .nxt {
+            background-position: -80px -130px; }
+          body .g_btnbar .m_playbar .warp .btns .nxt:hover {
+            background-position: -110px -130px; }
+        body .g_btnbar .m_playbar .warp .head {
+          position: relative;
+          margin: 6px 15px 0 0;
+          width: 34px;
+          height: 34px;
+          float: left; }
+          body .g_btnbar .m_playbar .warp .head img {
+            width: 34px;
+            height: 34px;
+            border: 0; }
+          body .g_btnbar .m_playbar .warp .head .mask {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: block;
+            width: 34px;
+            height: 35px;
+            background: url(../imgs/playbar.png) no-repeat;
+            background-position: 0 -80px; }
+        body .g_btnbar .m_playbar .warp .play {
+          position: relative;
+          width: 608px;
+          float: left; }
+          body .g_btnbar .m_playbar .warp .play .words {
+            height: 28px;
+            overflow: hidden;
+            color: #e8e8e8;
+            text-shadow: 0 1px 0 #171717;
+            line-height: 28px; }
+          body .g_btnbar .m_playbar .warp .play .m_pbar {
+            width: 493px;
+            position: relative; }
+            body .g_btnbar .m_playbar .warp .play .m_pbar .barbg {
+              width: 493px;
+              height: 9px;
+              background: url(../imgs/statbar.png) no-repeat;
+              background-position: right 0; }
+            body .g_btnbar .m_playbar .warp .play .m_pbar .rdy {
+              height: 9px;
+              background: url(../imgs/statbar.png) no-repeat;
+              background-position: right -30px; }
+            body .g_btnbar .m_playbar .warp .play .m_pbar .cur {
+              height: 9px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 1%;
+              background: url(../imgs/statbar.png) no-repeat;
+              background-position: left -66px; }
+              body .g_btnbar .m_playbar .warp .play .m_pbar .cur .btn1 {
+                display: inline-block;
+                width: 22px;
+                height: 24px;
+                position: absolute;
+                top: -7px;
+                right: -13px;
+                width: 22px;
+                height: 24px;
+                margin-left: -11px;
+                background: url(../imgs/ply_btn.png) no-repeat;
+                background-position: 0 0; }
+            body .g_btnbar .m_playbar .warp .play .m_pbar .time {
+              position: absolute;
+              top: -3px;
+              right: -84px;
+              color: #797979;
+              text-shadow: 0 1px 0 #121212; }
+        body .g_btnbar .m_playbar .warp .oper {
+          width: 60px;
+          float: left; }
+          body .g_btnbar .m_playbar .warp .oper .icn {
+            float: left;
+            width: 25px;
+            height: 25px;
+            margin: 11px 2px 0 0;
+            text-indent: -9999px;
+            background: url(../imgs/playbar.png) no-repeat; }
+          body .g_btnbar .m_playbar .warp .oper .icn_add {
+            background-position: -88px -163px; }
+          body .g_btnbar .m_playbar .warp .oper .icn_add:hover {
+            background-position: -88px -189px; }
+          body .g_btnbar .m_playbar .warp .oper .icn_share {
+            background-position: -114px -163px; }
+          body .g_btnbar .m_playbar .warp .oper .icn_share:hover {
+            background-position: -114px -189px; }
+        body .g_btnbar .m_playbar .warp .ctrl {
+          float: left;
+          position: relative;
+          z-index: 10;
+          width: 113px;
+          padding-left: 13px;
+          background: url(../imgs/playbar.png) no-repeat;
+          background-position: -147px -238px; }
+          body .g_btnbar .m_playbar .warp .ctrl .icn {
+            float: left;
+            width: 25px;
+            height: 25px;
+            margin: 11px 2px 0 0;
+            text-indent: -9999px;
+            background: url(../imgs/playbar.png) no-repeat; }
+          body .g_btnbar .m_playbar .warp .ctrl .icn_vol {
+            background-position: -2px -248px; }
+          body .g_btnbar .m_playbar .warp .ctrl .icn_vol:hover {
+            background-position: -31px -248px; }
+          body .g_btnbar .m_playbar .warp .ctrl .icn_loop {
+            background-position: -3px -344px; }
+          body .g_btnbar .m_playbar .warp .ctrl .icn_loop:hover {
+            background-position: -33px -344px; }
+          body .g_btnbar .m_playbar .warp .ctrl .add {
+            float: left;
+            width: 59px;
+            height: 36px;
+            position: relative;
+            zoom: 1; }
+            body .g_btnbar .m_playbar .warp .ctrl .add .icn_list {
+              display: block;
+              width: 38px;
+              padding-left: 21px;
+              background-position: -42px -68px;
+              line-height: 27px;
+              text-align: center;
+              color: #666;
+              text-shadow: 0 1px 0 #080707;
+              text-indent: 0;
+              text-decoration: none; }

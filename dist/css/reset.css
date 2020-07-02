@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 清除浏览器默认样式 */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* 清除标签默认加粗效果 */
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal; }
+
+/* 清除标签默认倾斜效果 */
+em, i {
+  font-style: normal; }
+
+/* 清除标签的默认下划线 */
+a {
+  text-decoration: none; }
+
+/* 清除列表符号的默认样式 */
+ul, ol, li {
+  list-style: none; }
+
+/* 解决基线对齐问题 */
+img, input {
+  vertical-align: top; }
+
+/* 解决input默认的点击样式 */
+input {
+  border: 0;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0); }
